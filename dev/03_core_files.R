@@ -32,7 +32,7 @@ rstudioapi::navigateToFile(usethis::proj_path("DESCRIPTION"))
 
 ## Create your README.Rmd file
 biocthis::use_bioc_readme_rmd()
-devtools::build_readme()
+devtools::build_readme()  ##si no fucniona voy aqui
 
 ## Edit accordingly. You might want to install your package also using
 ## devtools::build() or the RStudio keyboard shortcut:
